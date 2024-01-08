@@ -123,6 +123,7 @@ main {
 }
 
 #welcome .welcome-text button {
+    cursor: pointer;
     padding: 16px 32px;
     border-radius: 5px;
     color: #FFF;
@@ -130,8 +131,11 @@ main {
     font-size: 20px;
     font-weight: 700;
     background-color: transparent;
-    text-transform: uppercase;
 }
+#welcome .welcome-text button:hover {
+    color: rgba(255, 255, 255, 0.80);
+}
+
 
 /* party address section */
 #place {
@@ -333,6 +337,7 @@ main {
 
 #gift .container .img .img-row img {
     max-width: 400px;
+    cursor: grab;
 }
 
 /* Subscribe */
@@ -369,7 +374,7 @@ main {
 #subscribe .container .form input {
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
-    padding: 22px 150px 20px 30px;
+    padding: 21px 150px 20px 30px;
 
 }
 
@@ -390,23 +395,6 @@ main {
 #subscribe .container .form button:hover {
     background: rgb(194, 0, 0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer section */
 footer {
