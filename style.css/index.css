@@ -221,7 +221,7 @@ main {
 
 /* ======================image====================== */
 #holiday .container .img {
-    background-image: url("/resources/Group\ 75.png"), url('/resources/Rectangle\ 1.png'), url('/resources/Rectangle\ 2.png');
+    background-image: url("/resources/Group\ 75.png"), url('../resources/Rectangle\ 1.png'), url('/resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: bottom left, top right, bottom right;
     width: 1320px;
