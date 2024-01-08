@@ -374,7 +374,8 @@ main {
 #subscribe .container .form input {
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
-    padding: 21px 150px 20px 30px;
+    padding: 15px 150px 19px 30px;
+    font-size: 20px;
 
 }
 
