@@ -171,7 +171,11 @@ main {
     background-color: rgb(213, 0, 0);
 }
 
-/* holiday */
+/* =============================================holiday=============================================== */
+#holiday .container {
+    margin-bottom: 120px;
+}
+
 /* text */
 #holiday .container .text {
     text-align: center;
@@ -193,9 +197,11 @@ main {
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
 #holiday .container .text span {
     color: #F00;
 }
+
 #holiday .container .text p {
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
@@ -205,36 +211,22 @@ main {
     max-width: 880px;
     margin: 0 auto;
 }
-/* image */
 
+/* ======================image====================== */
+#holiday .container .img {
+    background-image: url(/resources/Group\ 75.png), url(/resources/Rectangle\ 1.png), url(/resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, top right, bottom right;
+    width: 1320px;
+    height: 662.07px;
+    margin-top: 64px;
+}
 
+#holiday .container .img img {
+    margin: 86px 0px 0px 720px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* best offer */
+/* ===============================best offer=============================== */
 #best-offer .container {
     display: flex;
     align-items: center;
@@ -242,7 +234,7 @@ main {
     margin-bottom: 120px;
 }
 
-/* offer */
+/* ==========offer======================== */
 #best-offer .container .offer h3 {
     color: #F00;
     text-align: left;
@@ -268,7 +260,7 @@ main {
     line-height: 32px;
 }
 
-/* image */
+/* ===============image==================== */
 #best-offer .container .img {
     padding: 50px;
     border-radius: 463px;
@@ -276,7 +268,7 @@ main {
     margin: 0 120px 0 70px;
 }
 
-/* text */
+/* ===============text======================= */
 #best-offer .container .text {
     text-align: left;
     font-family: 'Inter', sans-serif;
@@ -298,8 +290,8 @@ main {
     margin-bottom: 40px;
 }
 
-/* best gift */
-/* text */
+/* ===========================================best gift================================= */
+/* ==============text========================== */
 #gift {
     margin-bottom: 120px;
 }
@@ -316,7 +308,7 @@ main {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    /* area */
+    /* ===========area=========== */
     margin-top: 16px;
     margin-bottom: 22px;
 }
