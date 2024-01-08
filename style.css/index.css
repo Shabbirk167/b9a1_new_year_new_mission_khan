@@ -172,7 +172,10 @@ main {
 }
 
 #place button:hover {
-    background-color: rgb(213, 0, 0);
+    color: #F00;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
 }
 
 /* =============================================holiday=============================================== */
@@ -376,8 +379,12 @@ main {
     background: #FFF;
     padding: 15px 150px 19px 30px;
     font-size: 20px;
-
 }
+
+#subscribe .container .form input:focus {
+    background: rgba(255, 0, 0, 0.05);
+}
+
 
 #subscribe .container .form button {
     cursor: pointer;
@@ -394,7 +401,8 @@ main {
 }
 
 #subscribe .container .form button:hover {
-    background: rgb(194, 0, 0);
+    color: rgb(255, 179, 179);
+    background: rgb(200, 0, 0);
 }
 
 /* footer section */
