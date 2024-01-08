@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* genaral style */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+/* header */
+#header {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+#header .container {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Banner\ Image.png);
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+#header .container p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+
+
+}
+
+#header .container h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+
+
+/* main */
+
+
+
+/* footer section */
+footer {
+    background-color: #070211;
+
+}
+
+#footer {
+    color: #FFF;
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 120px;
+}
+
+#footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 50px 0;
+}
+
+/* address & contact */
+#footer .address-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .address-contact p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+#footer .address-contact .contact p img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+/* social links */
+#footer .social-links {
+    padding: 0 450px;
+    justify-content: center;
+}
+
+#footer .social-links a {
+    margin-right: 25px;
+}
+
+#footer .reserved {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .reserved p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
