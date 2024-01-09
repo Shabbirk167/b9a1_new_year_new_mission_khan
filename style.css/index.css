@@ -10,7 +10,7 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-/* header */
+/* ===============================header======================================== */
 #header {
     width: 82.5%;
     max-width: 1320px;
@@ -47,14 +47,14 @@ body {
 
 
 
-/* main */
+/* ==================================================================main============================================ */
 main {
     width: 82.5%;
     max-width: 1320px;
     margin: 0 auto;
 }
 
-/* off */
+/* ================================================off=========================================== */
 #off-section {
     font-family: 'Inter', sans-serif;
     text-align: center;
@@ -86,7 +86,7 @@ main {
     margin-bottom: 120px;
 }
 
-/* welcome */
+/* ======================================welcome============================================== */
 #welcome {
     /* background image  */
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
@@ -132,12 +132,13 @@ main {
     font-weight: 700;
     background-color: transparent;
 }
+
 #welcome .welcome-text button:hover {
     color: rgba(255, 255, 255, 0.80);
 }
 
 
-/* party address section */
+/* ====================================party address section======================================================= */
 #place {
     /* background-image */
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -219,7 +220,7 @@ main {
     margin: 0 auto;
 }
 
-/* ======================image====================== */
+/* ==========image================= */
 #holiday .container .img {
     background-image: url("../resources/Group\ 75.png"), url("../resources/Rectangle\ 1.png"), url("../resources/Rectangle\ 2.png");
     background-repeat: no-repeat;
@@ -233,7 +234,7 @@ main {
     margin: 86px 0px 0px 720px;
 }
 
-/* ===============================best offer=============================== */
+/* ==========================================best offer======================================================== */
 #best-offer .container {
     display: flex;
     align-items: center;
@@ -297,8 +298,8 @@ main {
     margin-bottom: 40px;
 }
 
-/* ===========================================best gift================================= */
-/* ==============text========================== */
+/* ===================================================best gift======================================================== */
+/* ======text=============== */
 #gift {
     margin-bottom: 120px;
 }
@@ -343,7 +344,7 @@ main {
     cursor: grab;
 }
 
-/* Subscribe */
+/* =====================================================Subscribe================================================= */
 #subscribe .container {
     /* background */
     border-radius: 16px;
@@ -405,7 +406,7 @@ main {
     background: rgb(200, 0, 0);
 }
 
-/* footer section */
+/* ===================================================footer section============================================================ */
 footer {
     background-color: #070211;
 }
